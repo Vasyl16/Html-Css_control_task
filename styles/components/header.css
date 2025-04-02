@@ -6,6 +6,7 @@
   display: grid;
   background: var(--light-grey-primary);
   box-shadow: 4px 6px 13px 0px rgba(215, 215, 215, 0.25);
+  z-index: 10;
 }
 
 .header__container {
