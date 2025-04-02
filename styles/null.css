@@ -47,8 +47,6 @@ button {
 }
 body {
   font-size: 16px;
-  color: var(--black);
-  font-family: 'Plus Jakarta Sans';
   text-rendering: optimizeLegibility;
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
