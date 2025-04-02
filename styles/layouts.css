@@ -1,0 +1,8 @@
+/* every class that includes __container has this css property */
+[class*='__container'] {
+  max-width: var(--fullPc);
+  padding: 0 var(--container-padding);
+  margin: 0 auto;
+  position: relative;
+  z-index: 3;
+}
