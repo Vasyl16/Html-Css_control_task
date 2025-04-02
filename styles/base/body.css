@@ -1,0 +1,6 @@
+body {
+  color: var(--black);
+  font-family: 'Plus Jakarta Sans';
+  line-height: 1;
+  background: var(--main-bg);
+}
