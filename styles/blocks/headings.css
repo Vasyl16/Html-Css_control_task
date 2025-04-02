@@ -1,0 +1,17 @@
+.main-title {
+  color: var(--black);
+  font-size: 64px;
+  font-weight: 700;
+}
+
+.main-subtilte {
+  color: var(--secondary-black);
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.second-subtitle {
+  color: #0d0d0d;
+  font-size: 20px;
+  font-weight: 700;
+}
