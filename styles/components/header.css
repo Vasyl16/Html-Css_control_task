@@ -170,7 +170,6 @@
 
 @media (max-width: 1024px) {
   .header {
-    min-height: 80px;
     padding: 10px 0 10px;
   }
 
@@ -183,7 +182,7 @@
     position: fixed;
     top: 0;
     left: -200vw;
-    background-color: rgba(97, 70, 234, 0.162);
+    background-color: #fffffedd;
     width: 100%;
     height: 100%;
     display: flex;
