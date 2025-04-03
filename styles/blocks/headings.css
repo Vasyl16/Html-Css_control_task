@@ -7,7 +7,7 @@
 
 .main-subtilte {
   color: var(--secondary-black);
-  font-size: 24px;
+  font-size: clamp(20px, 3vw, 24px);
   font-weight: 700;
 }
 
