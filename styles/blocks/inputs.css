@@ -1,0 +1,21 @@
+.main-input {
+  background-color: var(--white);
+  padding: 20px 21px 21px 21px;
+  color: var(--black);
+  border-radius: 8px;
+  font-size: clamp(16px, 2.5vw, 20px);
+}
+
+.main-input::placeholder {
+  color: var(--grey);
+}
+
+.main-input:focus {
+  outline: 1px solid var(--black);
+}
+
+@media (max-width: 1024px) {
+  .main-input {
+    padding: 15px;
+  }
+}
