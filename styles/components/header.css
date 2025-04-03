@@ -27,13 +27,13 @@
   gap: 56px;
 }
 
-.header__title {
+.header__logo {
   color: #001858;
   font-size: 36px;
   font-weight: 600;
 }
 
-.header__title span {
+.header__logo span {
   color: var(--blue);
   font-size: 18px;
   font-weight: 700;
@@ -212,11 +212,11 @@
     padding: 10px 0 10px;
   }
 
-  .header__title {
+  .header__logo {
     font-size: 28px;
   }
 
-  .header__title span {
+  .header__logo span {
     font-size: 15px;
   }
 
