@@ -22,7 +22,7 @@
 
 .items-category {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 219px));
+  grid-template-columns: repeat(auto-fit, clamp(150px, 20%, 219px));
   column-gap: 38px;
   row-gap: 37px;
   justify-content: center;
@@ -91,7 +91,6 @@
   }
 
   .items-category {
-    grid-template-columns: repeat(auto-fit, minmax(150px, 200px));
     gap: 20px;
   }
 
