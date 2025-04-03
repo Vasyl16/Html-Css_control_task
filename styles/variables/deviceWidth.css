@@ -12,6 +12,7 @@
   --fullPc: calc(var(--pc) + var(--container-padding) * 2);
 
   /* ПК, ноутбуки, деякі планшети у горизонтальному положенні */
+  --laptop-medium: 1440px; /* Typical high-res laptop or smaller desktop */
   --tablet: 1024px; /* Планшети, деякі телефони в горизонтальному положенні */
   --mobile: 767.98px; /* Телефони L */
   --mobileSmall: 479.98px; /* Телефони S */
