@@ -7,7 +7,7 @@
 
 .second-text {
   color: var(--secondary-black);
-  font-size: 18px;
+  font-size: clamp(15px, 2.4vw, 18px);
   font-weight: 400;
 }
 
