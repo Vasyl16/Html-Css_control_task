@@ -32,7 +32,7 @@
             </label>
 
             <div class="header__actions">
-              <nav class="header__nav nav-header">
+              <nav aria-label="Main navigation" class="header__nav nav-header">
 
                 <ul class="nav-header__items">
                   <li class="second-subtitle nav-header__item">
@@ -106,18 +106,18 @@
             </div>
 
             <div class="category__row">
-              <div class="category__items items-category">
-                <article class="items-category__item">
-                  <a href="#" class="items-category__item-link">
-                    <img src="./img/category/css-icon.svg" class="items-category__icon">
+              <nav class="category__items items-category">
+                <article class="items-category__item" aria-label="Article categories navigation">
+                  <a href="#items-article__item_css" class="items-category__item-link">
+                    <img alt="css" src="./img/category/css-icon.svg" class="items-category__icon">
 
                     <h3 class="main-subtilte items-category__title">CSS</h3>
                   </a>
                 </article>
 
                 <article class="items-category__item">
-                  <a href="#" class="items-category__item-link">
-                    <img src="./img/category/js-icon.svg" class="items-category__icon">
+                  <a href="#items-article__item_js" class="items-category__item-link">
+                    <img alt="javascript" src="./img/category/js-icon.svg" class="items-category__icon">
 
                     <h3 class="main-subtilte items-category__title">javascript</h3>
                   </a>
@@ -125,7 +125,7 @@
 
                 <article class="items-category__item">
                   <a href="#" class="items-category__item-link">
-                    <img src="./img/category/tailwindcss-icon.svg" class="items-category__icon">
+                    <img alt="Tailwind" src="./img/category/tailwindcss-icon.svg" class="items-category__icon">
 
                     <h3 class="main-subtilte items-category__title">Tailwind</h3>
                   </a>
@@ -133,21 +133,21 @@
 
                 <article class="items-category__item">
                   <a href="#" class="items-category__item-link">
-                    <img src="./img/category/vuejs-icon.svg" class="items-category__icon">
+                    <img alt="vue js" src="./img/category/vuejs-icon.svg" class="items-category__icon">
 
                     <h3 class="main-subtilte items-category__title">Vue JS</h3>
                   </a>
                 </article>
 
                 <article class="items-category__item">
-                  <a href="#" class="items-category__item-link">
-                    <img src="./img/category/react-icon.svg" class="items-category__icon">
+                  <a href="#items-article__item_react" class="items-category__item-link">
+                    <img alt="react js" src="./img/category/react-icon.svg" class="items-category__icon">
 
                     <h3 class="main-subtilte items-category__title">React JS</h3>
                   </a>
                 </article>
 
-              </div>
+              </nav>
             </div>
           </div>
       </section>
@@ -251,8 +251,7 @@
                 </div>
               </article>
 
-              <article class="items-article__item">
-
+              <article id="items-article__item_css" class="items-article__item">
                 <div class="items-article__top">
                   <h2 class="items-article__title main-subtilte">CSS</h2>
 
@@ -346,8 +345,7 @@
                 </div>
               </article>
 
-              <article class="items-article__item">
-
+              <article id="items-article__item_js" class="items-article__item">
                 <div class="items-article__top">
                   <h2 class="items-article__title main-subtilte">javascript</h2>
 
@@ -441,8 +439,7 @@
                 </div>
               </article>
 
-              <article class="items-article__item">
-
+              <article id="items-article__item_react" class="items-article__item">
                 <div class="items-article__top">
                   <h2 class="items-article__title main-subtilte">React JS</h2>
 
@@ -553,11 +550,11 @@
 
             <p class="main-text subscribe__text">Subscribe to newsletter and never miss the new post every week.</p>
 
-            <div class="subscribe__form form-subscribe">
+            <form class="subscribe__form form-subscribe">
               <input placeholder="Enter your email here...." class="form-subscribe__input main-input">
 
               <button class="form-subscribe__button main-button">Subscribe</button>
-            </div>
+            </form>
           </div>
       </section>
 
@@ -603,7 +600,7 @@
               </div>
 
 
-              <nav class="footer__nav nav-footer">
+              <nav aria-label="Footer navigation" class="footer__nav nav-footer">
                 <div class="nav-footer__column">
                   <input name="nav-footer-category" type="checkbox" id="nav-footer-category"
                     class="nav-footer__checkbox">
@@ -611,19 +608,19 @@
 
                   <ul class="nav-footer__list">
                     <li class="nav-footer__item">
-                      <a class="second-text nav-footer__item-link">CSS</a>
+                      <a href="#items-article__item_css" class="second-text nav-footer__item-link">CSS</a>
                     </li>
 
                     <li class="nav-footer__item">
-                      <a class="second-text nav-footer__item-link">Javascript</a>
+                      <a href="#items-article__item_js" class="second-text nav-footer__item-link">Javascript</a>
                     </li>
 
                     <li class="nav-footer__item">
-                      <a class="second-text nav-footer__item-link">Tailwind</a>
+                      <a href="#" class="second-text nav-footer__item-link">Tailwind</a>
                     </li>
 
                     <li class="nav-footer__item">
-                      <a class="second-text nav-footer__item-link">React JS</a>
+                      <a href="#items-article__item_react" class="second-text nav-footer__item-link">React JS</a>
                     </li>
 
                     <li class="nav-footer__item">
